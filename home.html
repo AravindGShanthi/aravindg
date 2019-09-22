@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aravind's Portfolio</title>
+    <!--Latest version JQuery-->
+    <script src="static/js/jquery.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!--easing js-->
+    <script src="static/js/jquery.easing.min.js"></script>
+
+    <!--mixitup js-->
+    <script src="static/js/jquery.magnific-popup.js"></script>
+
+    <!--Owl Carousel js-->
+    <script src="static/js/owl.carousel.js"></script>
+
+    <!--Validator js-->
+    <script src="static/js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="static/js/contact.js"></script>
+
+
+    <!--Bootstrap js-->
+    <script src="static/js/wow.min.js"></script>
+
+    <!--Theme js-->
+    <script src="static/js/main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <style>
+        #us01{
+            color:black;
+        }
+        .grid-container {
+            display: grid;
+            text-align:center;
+            grid-template-columns: 10rem 9rem auto;
+        }
+        .grid-item {
+
+        font-size: 30px;
+        text-align: center;
+        padding:10px;
+        }
+        .grid-item-1{
+        text-align:left;
+        padding:18px;
+        }
+        .skills {
+            display: inline-block;
+            margin: 2vh auto 2vh auto;
+        }
+        .pfblock-title{
+            text-align: center;
+            font-weight: 800;
+        }
+        .pfblock-line {
+            background: rgba(41, 33, 109, 0.5);
+            width: 500px;
+            height: 2px;
+            margin: 30px auto;
+        }
+        .pfblock-icon {
+            font-size: 32px;
+        }
+        .pfblock-gray {
+            background: #f5f5f5;
+        }
+        .col-xs-15 {
+            position: relative;
+            min-height: 100px;
+            padding-right: 10px;
+            padding-left: 10px;
+            width: 20%;
+            float: left;
+        }
+        @media (max-width: 620px) {
+            #me {
+                margin-top: 1vh;
+            }
+        
+            div[class^="devicon"] {
+                font-size: 40px;
+            }
+        
+            div[class^="devicon"] > span{
+                font-size: 10px;
+            }
+        }
+        div[class^="devicon"] {
+            display: block;
+            color: #333333;
+            font-size: 80px;
+            margin:  2vh auto 2vh auto;
+            text-align: center;
+        }
+        
+        div[class^="devicon"]:hover {
+            color: #999;
+        }
+        
+        div[class^="devicon"] span{
+            font-family: Raleway, sans-serif;
+            font-weight: 600;
+            margin-top: 10px;
+            font-size: 16px;
+            display:block;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+<div class="loader_bg">
+    <div class="loader"></div>
+</div>
+
+<nav class="navbar navbar-custom navbar-fixed-top" style="background-color:rgb(11, 13, 138)">
+    <div class="container">
+        <div class="navbar-header smooth-menu">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" style="font-size:50px" href="#home">Aravind G</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                <li><a class="smooth-menu" href="#about">About</a></li>
+                <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
+                <li><a class="smooth-menu" href="#services">Services</a></li>
+                <!-- <li><a class="smooth-menu" href="#testimonial">Testimonial</a></li> -->
+                <li><a class="smooth-menu" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header section -->
+<div id="home" class="banner-area section-padding" style="background-image:url('media/beach1.jpg');">
+    <div class="containter">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="welcome-text" style="color:black">
+                    <div class="name-area wow fadeInDown" data-wow-delay="0.2s" >Hello, I'm <br><p style="font-family:AR DESTINE;font-size:50px;color:red"><br>Aravind</p></div>
+                    <h1 id="us01" class="wow fadeInDown" data-wow-delay="0.4s" style="color:black">Hardware Designer | Software Developer</h1>
+                    <a href="#about" class="my-btn-1 wow fadeInDown" data-wow-delay="0.6s"  >Learn more</a>
+                    <a href="#contact" class="my-btn-2 wow fadeInDown" data-wow-delay="0.8s">Hire me today</a>
+                    <!-- <a href="#contact" class="my-btn-2 wow fadeInDown animated" data-wow-delay="0.8s" style="background-color:blue">Get in touch</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- {#    About section #} -->
+
+<div id="about" class="about-area section-padding" style="background-color:rgb(236, 232, 232)">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sn-8 col-xs-12 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="about-left">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="line"></div>
+                    <h4>I Am A Hardware Designer, Having An Industrial Experience In Developing FPGA IP's Using Xilinx VIVADO HLX Software.</h4>
+                    <p>Currently working as a full time IoT design engineer in Health Sensei IND. Pvt. Ltd, Chennai and a part time FPGA designer in Adhitya Medical systems India Pvt. Ltd. Chennai.</p>
+                    <a href="media/AG_Resume.pdf" target="block" download>Download CV&nbsp;<i class="fa fa-download"></i></a>
+                </div>
+            </div>
+            <div class="col-md-5 visible-md visible-lg wow fadeInDown" data-wow-delay="0.6s">
+                <div class="profile">
+                    <img src="media/Aravind.jpg" alt="Profile image" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- portfolio section -->
+
+<div id='portfolio' class="skills">
+<h2 class="pfblock-title wow fadeInRight" style="color:rgb(73, 73, 73)"><br><br>My Education and Experience</h2>
+<div class="pfblock-line"></div>
+<div class="grid-container">
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/annauniv.png" height=100% width=100% alt="AnnaUNiv LOGO"></div>
+<div class="grid-item grid-item-1"><h4>Electronics and Communication Enginerring (B.E.), Rajalakshmi Engineering College</h4><p>GPA - 8.63 | 2015 — 2019 | Chennai, India</p> </div></div>  
+</div>  
+<div class="grid-container">
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/avm.jpg" height=100% width=100% alt="AVM LOGO"></div>
+<div class="grid-item grid-item-1"><h4>Computer Science (+2), AV.Meiyappan Higher Secondary School</h5> 
+    <p>Percentage - 91.33% | 2013 — 2015 | Chennai, India</p></div></div>  
+</div>
+<div class="grid-container">
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/hslogo3.png" height=100% width=100% alt="HS LOGO"></div>
+<div class="grid-item grid-item-1"><h4>Software Engineering Intern, Health Sensei</h4> 
+    <p>June — Present 2019 | Chennai, India</p> </div></div>  
+</div>
+<div class="grid-container">
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/aditya.jpg" height=100% width=100% alt="Aditya medical systems LOGO"></div>
+<div class="grid-item grid-item-1"><h4>Embedded Engineer (Part-time), Adhitya medical system India Pvt. Ltd.</h4> 
+    <p>July — Present 2019 | Chennai, India</p></div></div>  
+</div>
+<div class="grid-container">
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/datapatterns.png" height=80% width=80% alt="datapatterns LOGO"></div>
+<div class="grid-item grid-item-1"><h4>FPGA designer Intern, Datapatterns India Pvt. Ltd.</h4> 
+    <p>December 2018 — February 2019 | Chennai, India</p></div></div>  
+</div>
+</div>
+
+<!-- <div class="grid-item"></div>
+<div class="grid-item"><img src="media/avm.jpg" height="75" width="75" alt="HS LOGO"></div>
+<div class="grid-item grid-item-1">6</div>  
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/hslogo3.png" height="75" width="75" alt="HS LOGO"></div>
+<div class="grid-item grid-item-1">9</div> 
+<div class="grid-item"></div>
+<div class="grid-item"><img src="media/datapatterns.png" height="75" width="75" alt="HS LOGO"></div>
+<div class="grid-item grid-item-1">9</div>
+<div class="grid-item"></div>
+<div class="grid-item">9</div>
+<div class="grid-item grid-item-1">9</div> -->
+
+
+
+<!-- Skills section -->
+<div id='portfolio' class="skills  col-xs-12" style="background-color:rgb(236, 232, 232)">
+        <h2 class="pfblock-title wow fadeInRight" style="background-color:rgb(236, 232, 232)"><br><br>My Skills</h2>
+        <div class="pfblock-line"></div>
+    <!-- Grid -->
+
+            <div class="row" >
+                <div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div>
+                <div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div>
+                <div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
+                <div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
+                <div  class="devicon-cplusplus-plain  col-xs-15"><span>C++</span></div>
+                <!-- <div  class="devicon-bootstrap-plain col-xs-15"><span>BOOTSTRAP</span></div> -->
+                <!-- <div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div> -->
+                <!-- <div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div> -->
+            </div>
+        </div>
+</div>
+
+
+<!-- {#    Services Section#} -->
+<div id="services" class="section-padding" style="background-color:rgb(236, 232, 232)">
+    <div class="container ">
+        <div class="row">
+            <h2 class="pfblock-title wow skills  col-xs-12  fadeInRight" style="background-color:rgb(236, 232, 232)"><br><br>Services I offer</h2>
+            <div class="pfblock-line"></div>
+        </div>
+        <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="single-service wow fadeInDown" data-wow-delay="0.2s">
+                        <i class="icon icon-wallet"></i>
+                        <h2>FPGA IP DESIGN'S</h2>
+                        <p>Providing complete FPGA designing solutions using VHDL, Xilinx Vivado and ISE software.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="single-service wow fadeInDown" data-wow-delay="0.2s">
+                        <i class="icon icon-wallet"></i>
+                        <h2>PYTHON SCRIPTING</h2>
+                        <p>Providing software solutions from networking to backend web applications and also for various testing applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="single-service wow fadeInDown" data-wow-delay="0.2s">
+                        <i class="icon icon-wallet"></i>
+                        <h2>PROJECT MANAGEMENT</h2>
+                        <p>Providing complete project management solutions to ensure delivering the project on time.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- {#    Contact section#} -->
+
+<div id="contact" class="invitation-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="single-invite text-center">
+                <h2>Do you want to know more about me?</h2>
+                <p>I'm happy to hear from you</p>
+                <!-- <a href="#contact" class="my-btn-3">Get started</a> -->
+                <a href="https://github.com/aravindgshanthi" target="block" class="fa fa-github-alt" style="font-size:48p"></a>
+                <a href="https://www.linkedin.com/in/aravind-g-83990a102/" target="block" class="fa fa-linkedin-square" style="font-size:48p"></a>
+                <a href="mailto:aravindgshanthi@gmail.com" class="glyphicon glyphicon-envelope" style="font-size:48p"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div id="contact" class="contact-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box-contact-form">
+
+                <form id="contact-form" method="post" action="#">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group wow fadeInDown" data-wow-delay="0.2s">
+                                    <input id="form_name" type="text" name="name" class="form-control"
+                                           placeholder="Enter your full name *" required="required"
+                                           data-error="Fullname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group wow fadeInDown" data-wow-delay="0.4s">
+                                    <input id="form_email" type="email" name="email" class="form-control"
+                                           placeholder="Enter your email *" required="required"
+                                           data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group wow fadeInUp" data-wow-delay="0.6s">
+                                    <textarea id="form_message" name="message" class="form-control"
+                                              placeholder="Your Message *" rows="4" required="required"
+                                              data-error="Leave a message for me"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-send" value="">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div> -->
+
+
+<div class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p>Aravind Gunasekaran&copy;2019</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Theme Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
+
+<!-- github font -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<!--Bootstrap css-->
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+<!--Font Awesome css-->
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+
+<!--Font Awesome css-->
+<link rel="stylesheet" href="static/css/animate.css">
+
+<!--Owl carousel css-->
+<link rel="stylesheet" href="static/css/owl.carousel.css">
+<link rel="stylesheet" href="static/css/owl.theme.default.css">
+
+<!--Magnific popup css-->
+<link rel="stylesheet" href="static/css/magnific-popup.css">
+
+<!--icon css-->
+<link rel="stylesheet" href="static/css/line-icons.min.css">
+
+<!--Template css-->
+<link rel="stylesheet" href="static/css/style.css">
+
+<!--Template css-->
+<link rel="stylesheet" href="static/css/responsive.css">
+</body>
+</html>
